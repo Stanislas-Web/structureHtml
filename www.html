@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Structurer un Contenu HMTL</title>
 </head>
-<br>
+<body>
     <h2>Page 2: World Wide Web</h2>
  <p>Le ​<strong> World Wide Web​</strong> (litt. la « toile (d’araignée) mondiale », abrégé www ou le Web), le réseau
     mondial ou la Toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet
@@ -27,11 +27,11 @@
     effet social – aider les gens à travailler ensemble – et non comme un jouet
     technologique. — Tim Berners-Lee, Weaving the Web, 1999
 </p>
+<figure>
+    <img src="images/browser.png" alt="Le premier​ serveur web​">
+    <figcaption>Fig 1 : Logo historique du World Wide Web par Robert Cailliau.</figcaption>
+</figure>
 
-<img src="images/browser.png" alt="Le premier​ serveur web​"></br>
-
-
-<p>Fig 1 : Logo historique du World Wide Web par Robert Cailliau.</p>
 
 
 <h2>Spécifications</h2> 
@@ -48,12 +48,12 @@ Le World Wide Web est désigné par de nombreux noms et abréviations synonymes 
 <li>Toile mondiale</li>
 <li>Toile</li></ul>
 <h2>La première page Web</h2>
-<h3> Voici le code de la première page Web :</h3><br>
-&lt;HEADER></br>
-&lt;TITLE>The World Wide Web project&lt;TITLE></br>
-&lt;NEXTID N="55"></br>
-&lt;/HEADER></br>
-&lt;BODY></br>
+<h3> Voici le code de la première page Web :</h3>
+&lt;HEADER>
+&lt;TITLE>The World Wide Web project&lt;TITLE>
+&lt;NEXTID N="55">
+&lt;/HEADER>
+&lt;BODY>
 &lt;H1>World Wide Web&lt;H1>The WorldWideWeb (W3) is a wide-area&lt;A <br>
     NAME=0 HREF="WhatIs.html"> <br>
     hypermedia&lt;A> information retrieval <br>
@@ -63,22 +63,22 @@ Le World Wide Web est désigné par de nombreux noms et abréviations synonymes 
     W3 is linked directly or indirectly <br>
     to this document, including an &lt;A br
     NAME=24 HREF="Summary.html">executive
-    summary<A> of the project, &lt;A <br>
+    summary1&lt;A> of the project, &lt;A <br>
     NAME=29 HREF="Administration/Mailing/Overview.html">Mailing lists&lt;A><br>
     , &lt;A<br>
     NAME=30 HREF="Policy.html">Policy&lt;A> , November's &lt;A<br>
-    NAME=34 HREF="News/9211.html">W3 news<A> ,<br>
+    NAME=34 HREF="News/9211.html">W3 news&lt;A>
         &lt;A<br>
     NAME=41 HREF="FAQ/List.html">Frequently Asked Questions&lt;A> .<br>
     &lt;DL><br>
-    &lt;DT><A<br>
+    &lt;DT>&lt;A
     NAME=44 HREF="../DataSources/Top.html">What's out there?&lt;/A><br>
     &lt;DD> Pointers to the<br>
     world's online information,&lt;A<br>
     NAME=45 HREF="../DataSources/bySubject/Overview.html"> subjects&lt;A><br>
     , &lt;A<br>
     NAME=z54 HREF="../DataSources/WWW/Servers.html">W3 servers&lt;A>, etc.<br>
-        &lt;DT><A<br>
+        &lt;DT>&lt;A
     NAME=46 HREF="Help.html">Help&lt;/A><br>
     &lt;DD> on the browser you are using<br>
     &lt;DT>&lt;A 
@@ -120,6 +120,6 @@ Le World Wide Web est désigné par de nombreux noms et abréviations synonymes 
     NAME=49 HREF="LineMode/Defaults/Distribution.html"> <br>
     anonymous FTP&lt;A> , etc.&lt;A> <br>
     &lt;DL> <br>
-    &lt;BODY> <br>
-    </body> 
+    &lt;BODY>
+    
     </html>
